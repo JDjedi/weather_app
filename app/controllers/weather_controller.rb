@@ -11,5 +11,6 @@ class WeatherController < ApplicationController
 			temp_f = parsed_json['current_observation']['temp_f']
 			puts "Current temperature in #{location} is: #{temp_f}\n"
 		end
+		#changes go in here
 	end
 end
