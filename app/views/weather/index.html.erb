@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Weather App</title>
+	<title>JD's Weather App</title>
 </head>
 <body>
-	<h1>Hello and Welcome to JD's Weather App!</h1>
+	<h1><%= @location %></h1>
 	<div class="weather-box">
-		<p>Hell World!</p>	
+		<li>Current temperature in <%= @location %> is: <%= @temp_f %></li>
+		<li>Current wind direction is: <%= @wind_dir %></li>
+		<li>Current conditions are: <%= @weather %></li>
 	</div>
 </body>
 </html>
